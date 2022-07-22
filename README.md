@@ -15,6 +15,7 @@
 
 ###  Programs used:
 
+- [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)
 
 ##  Setup & Installation:
 
