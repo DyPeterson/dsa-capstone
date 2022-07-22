@@ -6,6 +6,7 @@
 
 ##  Description:
 
+A simple GUI application that allows the user to run common cleaning operations for their data.(MVP)
 
 ###  Technologies Used:
 
