@@ -2,3 +2,5 @@ jupyterlab
 notebook
 jupyterthemes
 pandas
+ttkbootstrap
+tk
