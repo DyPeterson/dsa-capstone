@@ -95,7 +95,7 @@ def save_csv(dataframe):
 
 # Create an instance of tkinter window
 win = ttk.Window(themename="superhero")
-win.title("Simple CSV Pipeline")
+win.title("CSV Pipeline")
 
 # Set the geometry of tkinter frame
 win.geometry("600x600")

@@ -1,4 +1,5 @@
-# Untitled Project
+# CSV Cleaner: GUI Pipeline
+![titlecard](./img/card.png)
 
 ## Contributors:
 
@@ -6,13 +7,16 @@
 
 ##  Description:
 
-A simple GUI application that allows the user to run common cleaning operations for their data.(MVP)
+A simple GUI application that allows the user to run common cleaning operations for their data. Demonstrating a pipeline.
 
 ###  Technologies Used:
 
 - [Visual Code Studio](https://code.visualstudio.com/)
 
 - [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US) ( Running: [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install) ([ubuntu 20.04](https://releases.ubuntu.com/20.04/)))
+
+- [tkinter](https://docs.python.org/3/library/tkinter.html)
+
 
 ###  Programs used:
 
@@ -47,6 +51,8 @@ A simple GUI application that allows the user to run common cleaning operations 
 ### Set-up:
 
 ##  Details:
+
+![Image of the GUI](./img/gui.png)
 
 ##  Useful Links:
 
