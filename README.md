@@ -17,6 +17,10 @@ A simple GUI application that allows the user to run common cleaning operations 
 
 - [tkinter](https://docs.python.org/3/library/tkinter.html)
 
+- [ttkbootstrap](https://ttkbootstrap.readthedocs.io/en/latest/)
+
+- [Pandas](https://pandas.pydata.org/) 
+
 
 ###  Programs used:
 
