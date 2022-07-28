@@ -98,7 +98,7 @@ win = ttk.Window(themename="superhero")
 win.title("Simple CSV Pipeline")
 
 # Set the geometry of tkinter frame
-win.geometry("600x550")
+win.geometry("600x600")
 
 # Add a Label widget
 upload_label = Label(win, text="Select CSV to upload")
@@ -112,7 +112,7 @@ file_b = ttk.Button(
    bootstyle=PRIMARY
 )
 file_b.grid(row=1,column=0,padx=5,pady=5)
-ToolTip(file_b, text= "Select CSV to load into program", bootstyle=SECONDARY)
+ToolTip(file_b, text= "Select CSV to load into program", bootstyle=LIGHT)
 
 
 file_label = Label(win, text="The File is located at : ")
@@ -125,7 +125,7 @@ data_frame_b = ttk.Button(
    bootstyle=PRIMARY
 )
 data_frame_b.grid(row=3,column=0,padx=5,pady=5)
-ToolTip(data_frame_b, text="Load the CSV file into a pandas dataframe", bootstyle=SECONDARY)
+ToolTip(data_frame_b, text="Load the CSV file into a pandas dataframe", bootstyle=LIGHT)
 
 # list details of df
 details_b = ttk.Button(
@@ -135,7 +135,7 @@ details_b = ttk.Button(
    bootstyle=PRIMARY
 )
 details_b.grid(row=4,column=0,padx=5,pady=5)
-ToolTip(details_b, text="Displays stats of a dataframe, Returning columns, the shape and datatypes of the columns", bootstyle=SECONDARY)
+ToolTip(details_b, text="Displays stats of a dataframe, Returning columns, the shape and datatypes of the columns", bootstyle=LIGHT)
 
 # TEXT BOX FOR DETAILS DISPLAY w/ SCROLL BAR
 frame = ttk.Labelframe(win)
@@ -161,7 +161,7 @@ null_b = ttk.Button(
    bootstyle=PRIMARY
 )
 null_b.grid(row=2, column=2, padx=5, pady=5)
-ToolTip(null_b, text="Fill empty fields of a dataframe and sets them to the inputted value")
+ToolTip(null_b, text="Fill empty fields of a dataframe and sets them to the inputted value", bootstyle=LIGHT)
 
 # Index Setter
 index_entry= ttk.Entry(win, width=25)
@@ -175,7 +175,7 @@ index_b = ttk.Button(
    bootstyle=PRIMARY
 )
 index_b.grid(row=4, column=2, padx=5, pady=5)
-ToolTip(index_b, text="Sets the index of dataframe to inputted column name", bootstyle=SECONDARY)
+ToolTip(index_b, text="Sets the index of dataframe to inputted column name", bootstyle=LIGHT)
 
 # Low data drop
 label_low_data = Label(win, text="Enter minimum number of datapoints to keep")
@@ -192,7 +192,7 @@ low_data_b = ttk.Button(
    bootstyle=PRIMARY
 )
 low_data_b.grid(row=7, column=2, padx=5, pady=5)
-ToolTip(low_data_b, text="Drops a row if missing more than inputted value amount of data, Default is 2", bootstyle=SECONDARY)
+ToolTip(low_data_b, text="Drops a row if missing more than inputted value amount of data, Default is 2", bootstyle=LIGHT)
 
 # drop duplicates
 drop_dupes_label = Label(win, text="Drop Duplicate Entries")
@@ -209,7 +209,7 @@ drop_dupes_b = ttk.Button(
    bootstyle=PRIMARY
 )
 drop_dupes_b.grid(row=10, column=2, padx=5, pady=5)
-ToolTip(drop_dupes_b, text="Drop duplicate values from columns. In the entry field insert list of columns to target separated by commas. Surrounded by quotes ex: 'col1', 'col2'")
+ToolTip(drop_dupes_b, text="Drop duplicate values from columns. In the entry field insert list of columns to target separated by commas. Surrounded by quotes ex: 'col1', 'col2'", bootstyle=LIGHT)
 
 # drop extra columns
 drop_extra_col_label = Label(win, text="Drop extra columns")
@@ -226,7 +226,7 @@ drop_extra_col_b = ttk.Button(
    bootstyle=PRIMARY
 )
 drop_extra_col_b.grid(row=13, column=2, padx=5, pady=5)
-ToolTip(drop_extra_col_b, text="Insert the number of desired columns, useful if you have extra columns from a CSV that you would like drop")
+ToolTip(drop_extra_col_b, text="Insert the number of desired columns, useful if you have extra columns from a CSV that you would like drop", bootstyle=LIGHT)
 
 # write csv
 save_file_b = ttk.Button(
