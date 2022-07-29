@@ -56,7 +56,7 @@ A simple GUI application that allows the user to run common cleaning operations 
 
 ##  Details:
 
-![Image of the GUI](./img/gui.png)
+![Image of the GUI](./img/diagram.png)
 
 ##  Useful Links:
 
