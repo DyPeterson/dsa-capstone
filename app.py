@@ -91,7 +91,8 @@ def save_csv(dataframe):
    Save pandas dataframe as CSV file.
    """
    saving_path = filedialog.asksaveasfile(mode='w', defaultextension=".csv")
-   dataframe.to_csv(saving_path)
+   if saving_path:
+      dataframe.to_csv(saving_path)
 
 # Create an instance of tkinter window
 win = ttk.Window(themename="superhero")
