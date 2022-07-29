@@ -51,10 +51,18 @@ A simple GUI application that allows the user to run common cleaning operations 
 	5. At the bottom of the menu will have *Download Zip*. Go ahead and click it to download the project.
 
 	6. Once downloaded find the `.zip` file and right-click it to bring up the menu. Within that menu click `Extract Here` to extract it in the current folder or click `Extract Files...`to select which folder you would like the project in.
+	
+	7. Follow steps 5-6 above. 
 
 ### Set-up:
 
+Once the project is installed run the program through the terminal with the command `python3 app.py`
+
+Once the program is running, first upload a csv then click create pandas dataframe, from there you can run any of the CSV cleaning operations you would like then save them.
+
 ##  Details:
+
+Below displays the GUI and has descriptions on what each of the buttons do
 
 ![Image of the GUI](./img/diagram.png)
 
@@ -66,6 +74,14 @@ A simple GUI application that allows the user to run common cleaning operations 
 
 ##  Known Bugs:
 
-No known bugs at this time.
+Scroll bar on details box is broken
 
 ## Future Features:
+
+- Add more robust cleaning operations, including being able to detect which cleaning operations need to be ran on the CSV.
+
+- Add ability to upload to the cloud.
+
+- Create icons and make the layout more visually appealing
+
+- More robust testing on different CSVs

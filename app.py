@@ -39,7 +39,7 @@ def details(df:DataFrame):
    Shape: {df.shape[0]} Rows, {df.shape[1]} Columns
    Data Types: {list(df.dtypes)}
    """)
-   details_text.grid(row=5,column=0,padx=5,pady=5)
+   details_text.grid(row=0,column=0)
    sb.grid(sticky=E)
    details_text.config(state='disabled', yscrollcommand=sb.set)
 
@@ -99,7 +99,7 @@ win = ttk.Window(themename="superhero")
 win.title("CSV Pipeline")
 
 # Set the geometry of tkinter frame
-win.geometry("600x600")
+win.geometry("600x700")
 
 # Add a Label widget
 upload_label = Label(win, text="Select CSV to upload")
@@ -140,10 +140,10 @@ ToolTip(details_b, text="Displays stats of a dataframe, Returning columns, the s
 
 # TEXT BOX FOR DETAILS DISPLAY w/ SCROLL BAR
 frame = ttk.Labelframe(win)
-details_text = ttk.Text(frame, height = 5, width = 80, wrap='word')
+details_text = ttk.Text(frame, height = 3, width = 60, wrap='word')
 sb = Scrollbar(frame)
 sb.config(command=details_text.yview)
-frame.grid(row=5,column=0,padx=5,pady=5)
+frame.grid(row=14,column=0,padx=5,pady=5, columnspan=3)
 
 # Data Cleaning label
 data_clean_label = Label(win, text="Data Cleaning:", font=("Arial", 16))
